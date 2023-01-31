@@ -26,7 +26,8 @@ app.get("/about", (req, res) => {
 
 // creating routes
 app.get("/works", (req, res) => {
-  res.send("hello from the works page!");
+  //   res.send("hello from the works page!");
+  res.sendFile(__dirname + "/views/works.html");
 });
 
 // creating routes

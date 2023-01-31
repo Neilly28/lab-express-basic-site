@@ -56,3 +56,38 @@ body {
   margin-bottom: 50px;
   color: white;
 }
+
+.movie-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+.movie-img {
+  width: 75%;
+}
+
+.movie-title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.movie-duration {
+  font-size: 16px;
+  color: white;
+}
+
+.movie-year {
+  font-size: 16px;
+  color: white;
+}
