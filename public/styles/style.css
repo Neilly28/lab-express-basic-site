@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Consolas", monospace;
+  background-color: black;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title,
+.links {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.link-items {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.profile-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 50%;
+}
+
+.profile-text {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
