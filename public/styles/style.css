@@ -39,6 +39,14 @@ body {
   font-weight: 400;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
 .profile-box {
   display: flex;
   justify-content: center;
@@ -90,4 +98,26 @@ body {
 .movie-year {
   font-size: 16px;
   color: white;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-img {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale(1.2);
 }

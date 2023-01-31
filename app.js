@@ -32,7 +32,8 @@ app.get("/works", (req, res) => {
 
 // creating routes
 app.get("/gallery", (req, res) => {
-  res.send("hello from the gallery page!");
+  //   res.send("hello from the gallery page!");
+  res.sendFile(__dirname + "/views/gallery.html");
 });
 
 // creating routes
